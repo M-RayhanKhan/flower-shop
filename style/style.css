@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: "Lato", sans-serif; */
+
+header {
+    height: 595px;
+    background-color: rgba(255, 183, 199, 0.534);
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    align-items: center;
+}
+
+ .flor-text h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+}
+.flor-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.flor-text button {
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    background: rgb(229, 84, 115);
+    border: none;
+    font-size: 15px;
+    font-family: Lato;
+    font-weight: 600;
+    color: white;
+} 
