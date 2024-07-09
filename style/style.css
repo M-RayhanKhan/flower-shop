@@ -145,4 +145,94 @@ header {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
+
+}
+
+/* discount container style */
+
+.discount-container {
+    width: 84%;
+    height: 440px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.discount-text h3 {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.discount-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    padding: 14px 25px 14px 25px;
+    font-size: 16px;
+    color: white;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+
+/* instagram container style */
+
+.instagram-container{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.instagram-text{
+    width: 421px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.instagram-text h4{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+.instagram-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.instagram-images-container{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.insta1{
+    width: 265.82px;
+    border: 2px dashed rgb(207, 200, 200);
+}
+.insta1 img{
+    width: 100%;
 }
