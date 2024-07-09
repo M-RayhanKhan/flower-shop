@@ -272,7 +272,8 @@ header {
     text-align: center;
     margin-top: 5px;
 }
-.input-field{
+
+.input-field {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -304,4 +305,50 @@ header {
     font-weight: 600;
     font-size: 16px;
     color: white;
+}
+
+/* footer-container style here */
+
+.footer-container {
+    height: 318.79px;
+    color: white;
+    background: rgb(17, 16, 16);
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.footer-text h1 {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.footer-text span {
+    color: rgb(229, 84, 115);
+}
+
+.footer-text p {
+    color: rgba(240, 226, 226, 0.9);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-text h5 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
 }
